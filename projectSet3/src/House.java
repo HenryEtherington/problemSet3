@@ -91,7 +91,7 @@ public class House {
     }
 
     //Constructor method
-@Override
+    @Override
     public String toString(){
         return "Address: " + getAddress() + "\nType: " + getType() +
                 "\nPrice: " + getPrice() + "\nOwner: " + getOwner() +
