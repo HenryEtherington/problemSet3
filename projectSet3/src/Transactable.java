@@ -1,17 +1,11 @@
-import javax.swing.*;
 
-public class Transactable {
-      public static void main(String[] args) {
+public interface Transactable {
 
-    double lodge, withdraw,a;
-    String aAsString;
+    void withraw();
+    void lodge();
 
-        aAsString = JOptionPane.showInputDialog("Please enter an input");
-           a = Double.parseDouble(aAsString);
-
-
-    }
 }
+
 
 
 
